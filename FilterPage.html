@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="FilterPage.css">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <div class="brand-logo">
+            <p class="logo">e!</p>
+        </div>
+        <div class="buttons">
+            <button class="login">Login</button>
+            <button class="account">Create an account</button>
+      </div>
+    </div>  
+
+    <!--Main text-->
+    <div class="main-text">
+        <p class="header2">Breakfast Places in Mumbai</p>
+    </div>
+
+    <!--Filter-->
+    <section class="filter-bar">
+        <p class="filter">Filters</p>
+        <p class="location">Location</p>
+        <select class="select-location">
+            <option value="0">Select Lcoation</option>
+            <option value="1">Bandra</option>
+            <option value="2">Dadar</option>
+            <option value="3">Mulad</option>
+            <option value="4">Juhu</option>
+        </select>
+
+        <p class="cuisine">Cuisine</p>
+        <p><input type="checkbox" class="checkboxes1"><label class="food">North Indian</label></input></p>
+        <p><input type="checkbox" class="checkboxes1"><label class="food">South Indian</label></input></p>
+        <p><input type="checkbox" class="checkboxes1"><label class="food">Chinese</label></input></p>
+        <p><input type="checkbox" class="checkboxes1"><label class="food">Street Food</label></input></p>
+
+
+        <p class="cost">Cost For Two</p>
+        <p><input type="radio" class="radio1" name="select"><label class="food">Less than 500</label></p>
+        <p><input type="radio" class="radio1"
+        name="select"><label class="food">500 to 1000</label></p>
+        <p><input type="radio" class="radio1"            name="select"><label class="food">1000 to 1500</label></p>
+        <p><input type="radio" class="radio1"            name="select"><label class="food">1500 to 2000+</label></p>
+
+        <p class="sort">Sort</p>
+        <p><input type="radio" class="radio1" name="select1"><label class="food">Price low to high</label></p>
+        <p><input type="radio" class="radio1" name="select1"><label class="food">Price high to low</label></p>
+    </section>
+
+    <!--CARD Section 1-->
+    <div class="contents">
+        <div class="right1-content">
+            <img src="images/pic1.png" class="food-image"/>
+            <div class="food-item-title">
+                <p class="food-title">The Big Chill Cakery</p>
+                <p class="place">Fort</p>
+                <p class="address">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+            </div>
+
+            <div class="last-section">
+                <p class="column1">CUISINES: <br>COST FOR TWO:</p>
+                <p class="column2">Bakery<br> ₹700</p>
+            </div>
+        </div>
+         <!-- CARD section-2 -->
+         <div class="right1-content">
+            <img src="images/pic1.png" class="food-image" />
+            <div class="food-item-title">
+                <p class="food-title">The Big Chill Cakery</p>
+                <p class="place">FORT</p>
+                <p class="address">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+            </div>
+            <div class="last-section">
+                <p class="column1">CUISINES: <br>COST FOR TWO:</p>
+                <p class="column2">Bakery<br> ₹700</p>
+            </div>
+        </div>
+
+        <!--Pagination-->
+        <div class="pages">
+            <button class="pageNo"><</button>
+                <button class="pageNo">1</button>
+                <button class="pageNo">2</button>
+                <button class="pageNo">3</button>
+                <button class="pageNo">4</button>
+                <button class="pageNo">5</button>
+                <button class="pageNo">></button>
+        </div>
+    </div>
+</body>
+</html>

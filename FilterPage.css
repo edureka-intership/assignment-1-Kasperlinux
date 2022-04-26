@@ -1,0 +1,262 @@
+* {
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.header {
+    background-color: #CE0505;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    display: flex;
+    justify-content: center;
+    padding-left: 102px;
+}
+
+.logo {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    padding-left: 1450px;
+}
+
+.login {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+    margin-right: 26px;
+}
+
+.account {
+    background-color: transparent;
+    padding: 12px;
+    color: white;
+    border: 1px white solid;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.main-text {
+    display: flex;
+    padding-left: 305px;
+    padding-top: 37px;
+}
+
+.header2 {
+    font-weight: bold;
+    color: #192F60;
+    font-size: 40px;
+}
+
+.filter-bar {
+    display: inline-flex;
+    flex-wrap: wrap;
+    float: left;
+    flex-direction: column;
+    margin: 27px 0px 96px 305px;
+    width: 270px;
+    height: 800px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    padding-bottom: 20px; 
+}
+
+.filter {
+    font-size: 18px;
+    font-weight: 600;
+    color: #192F60;
+    padding-top: 17px;
+    padding-left: 26px;
+}
+
+.location {
+    color: #192F60;
+    font-size: 16px;
+    font-weight: medium;
+    padding-top: 10px;
+    padding-left: 27px;
+}
+
+.select-location {
+    width: 208px;
+    height: 35px;
+    color: #8C96AB;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    margin-top: 11px;
+    margin-left: 27px;
+    border-radius: 3px;
+}
+
+.cuisine {
+    font-size: 16px;
+    font-weight: medium;
+    color: #192F60;
+    margin-top: 22px;
+    margin-left: 27px;
+}
+
+.checkboxes1 {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #3A5075;
+    border-radius: 2px;
+    margin: 15px 11px 0px 27px;
+}
+
+.food {
+    font-size: 17px;
+    font-weight: normal;
+    color: #8C96AB;
+}
+
+.cost {
+    font-weight: medium;
+    font-size: 16px;
+    color: #192F60;
+    margin-top: 26px;
+    margin-left: 27px;
+}
+
+.radio1 {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #3A5075;
+    border-radius: 9px;
+    margin: 15px 11px 0px 27px;
+}
+
+.sort{
+    font-weight: 600;
+    font-size: 16px;
+    color: #192F60;
+    margin-top: 29px;
+    margin-left: 27px;
+}
+
+.contents{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
+.right1-content {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    width: 794px;
+    height: 310px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-top: 27px;
+    margin-left: 45px;
+} 
+
+.food-image{
+    display: inline-flex;
+    flex-wrap: wrap; 
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.food-item-title{
+    display: inline-flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    margin-top: 46px;
+}
+
+.food-title{
+    font-weight: 600;
+    color: #192F60;
+    font-size: 30px;
+    margin-left: 41px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.place{
+    font-weight: 600;
+    color: #192F60;
+    font-size: 16px;
+    margin-left: 46px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address{
+    font-size: 16px;
+    color: #636F88;
+    margin-left: 46px;
+    margin-top: 5px;
+    font-weight: medium;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.last-section{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    margin: 7px;
+    border-top: 3px solid #DEDFE5;
+    width: 746px;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.column1 {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    font-weight: medium;
+    font-size: 16px;
+    color: #636F88;
+    margin-right: 46px;
+}
+
+.column2{
+    font-size: 16px;
+    font-weight: medium;
+    color: #192F60;
+    display: inline-flex;
+    flex-wrap: wrap; 
+}
+
+.pages{
+    margin-top: 38px;
+    margin-left: 277px;
+}
+
+.pageNo{
+    background-color: transparent;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #8C96AB;
+    margin-right: 13px;
+   width: 40px;
+   height: 40px; 
+}
